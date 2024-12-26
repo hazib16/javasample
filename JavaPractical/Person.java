@@ -2,10 +2,10 @@ public class Person {
     String Name;
     int Age;
     Boolean MicStatus;
-    public String GetName(){
+    public String Name(){
         return Name;
     }    
-    public int GetAge(){
+    public int Age(){
         return Age;
     }
 

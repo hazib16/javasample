@@ -7,11 +7,12 @@ public class Main {
         person1.MicStatus = true;
         person2.Name="Sumesh";
         person2.Age=25;
-        System.out.println(person1.GetName() +" is "+person1.GetAge()+"years old");
-        System.out.println(person2.GetName() + " is "+person2.GetAge()+"years old");
+        System.out.println(person1.Name() +" is "+person1.Age()+"years old");
+        System.out.println(person2.Name() + " is "+person2.Age()+"years old");
         Rectangle rec1=new Rectangle();
         rec1.Length=5;
         rec1.Breadth=6;
-        System.out.println("Area is: "+rec1.GetArea());
+        //rec1.Area= rec1.Length * rec1.Breadth;
+        System.out.println("Area is: "+rec1.Length * rec1.Breadth);
     }
 }
